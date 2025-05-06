@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.parentContent {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    background-image: url(../../assets/image/seeBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-position: 50% 50%;
+    /* opacity: 0.6; */
+}
+
+.subContent {
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    /* color: grey; */
+}
+
+.leftContent {
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 20%;
+}
+
+.heading {
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.subHead {
+    font-size: 30px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif */
+}
+
+.started {
+    display: flex;
+    margin-top: 50px;
+
+    button {
+        border-radius: 12px;
+        border: 2px solid crimson;
+        padding: 5px 30px;
+        background-color: crimson;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    a {
+        font-size: 45px;
+        color: crimson;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+    p {
+        font-size: 20px;
+        margin: 20px 20px;
+    }
+}
+
+.rightContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50vh;
+}
+
+.travelerImg {
+    width: 50%;
+    height: 50vh;
+
+    img {
+        width: 500px;
+        height: auto;
+        border-radius: 20px;
+    }
+}

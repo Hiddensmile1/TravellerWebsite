@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    position: fixed;
+}
+
+.subHeader {
+    /* background-color: aqua; */
+    width: 80%;
+    height: 80%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.logo {
+    color: crimson;
+    font-size: 27px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.navBar {
+    display: flex;
+
+
+    a {
+        padding: 13px;
+        font-weight: 600;
+        cursor: pointer;
+        text-decoration-line: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        color: black;
+    }
+
+    ;
+
+    a:hover {
+        color: crimson;
+    }
+
+    .home {
+        color: crimson;
+    }
+}
+
+.register {
+    border-radius: 12px;
+    border: 2px solid crimson;
+    padding: 10px 30px;
+    background-color: crimson;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
