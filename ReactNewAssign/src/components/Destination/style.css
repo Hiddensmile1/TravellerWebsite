@@ -35,6 +35,7 @@ body {
     display: grid;
     grid-template-columns: 70% 30%;
     gap: 15px;
+    
 
 }
 
@@ -43,9 +44,9 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0 70px;
-
-    margin-top: 5%;
-
+    margin-top: 2%;
+     /* margin-bottom: 9%; */
+    
     .search {
         background-color: crimson;
         color: white;
@@ -67,9 +68,11 @@ body {
 .back {
     border: 2px solid grey;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 .forward {
     border: 2px solid grey;
     border-radius: 6px;
+    cursor: pointer;
 }

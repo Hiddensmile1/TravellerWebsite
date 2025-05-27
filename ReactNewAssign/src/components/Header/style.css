@@ -34,7 +34,7 @@ body {
     display: flex;
 
 
-    a {
+    .nav {
         padding: 13px;
         font-weight: 600;
         cursor: pointer;

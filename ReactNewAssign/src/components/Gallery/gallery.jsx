@@ -61,7 +61,7 @@ const Gallery = () => {
                         <img src={Train} />
                         <div className="cardContent">
                             <div className="subCard">
-                                <h3>Easy transportation experience</h3>
+                                <h3>Easy transporting experience</h3>
                                 <p style={{ fontSize: "19px" }}>Italy</p>
                             </div>
                             <div className="starbtn">
@@ -72,7 +72,7 @@ const Gallery = () => {
                                     <MdOutlineStarPurple500 />
                                     <MdOutlineStarPurple500 />
                                 </div>
-                                <div>4.9</div>
+                                <div>5.0</div>
                                 <div className="btn">
                                     <button type="submit">View Details</button>
                                 </div>
